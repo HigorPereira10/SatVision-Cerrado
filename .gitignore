@@ -2,16 +2,40 @@
 .venv/
 venv/
 __pycache__/
-*.pyc
 
-# Dados e saídas
-data/
-outputs/
-models/
-*.h5
-*.zip
-
-# Configs locais
+# Arquivos temporários de sistema
 .DS_Store
-.env
+Thumbs.db
 *.log
+
+# Dados e saídas grandes
+data/raw/
+data/multitemporal/**/*.tif
+outputs/**/*.csv
+outputs/**/*.pth
+outputs/**/*.npy
+outputs/**/*.npz
+outputs/**/*.json
+
+# Backups e versões intermediárias
+*backup*
+*temp*
+*.bak
+
+# Arquivos compactados
+*.zip
+*.rar
+*.7z
+
+# Configurações locais / IDE
+.vscode/
+.idea/
+.env
+*.code-workspace
+
+# Cache de bibliotecas
+pip-wheel-metadata/
+__pypackages__/
+*.egg-info/
+build/
+dist/
