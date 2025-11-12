@@ -2,7 +2,7 @@
 
 **EcoVision Cerrado** é um projeto de **Visão Computacional** e **Inteligência Artificial** desenvolvido para detectar **vegetação e desmatamento** a partir de imagens de satélite Sentinel-2.  
 
-> ⚠️ Embora o nome destaque o bioma *Cerrado*, o modelo de IA utilizado é **genérico** — treinado com o dataset **EuroSAT**, composto por imagens de diferentes regiões do mundo.  
+> Embora o nome destaque o bioma *Cerrado*, o modelo de IA utilizado é **genérico** — treinado com o dataset **EuroSAT**, composto por imagens de diferentes regiões do mundo.  
 > O **Cerrado** foi utilizado como **caso de estudo e aplicação prática**, servindo para avaliar o comportamento do modelo e dos métodos de análise multitemporal em um bioma real.
 
 ---
@@ -144,5 +144,5 @@ Predição do modelo (vegetação ou desmatamento)
 | Nome      | Função                                                   | GitHub                                                   |
 | ---------- | -------------------------------------------------------- | -------------------------------------------------------- |
 | **Higor**  | Desenvolvimento, pré-processamento, integração Streamlit | [@HigorPereira19](https://github.com/HigorPereira10) |
-| **João**   | Treinamento da IA, rotulagem e inferência                | [@UsuarioDoJoao](https://github.com/UsuarioDoJoao)       |
+| **João**   | Treinamento da IA, rotulagem e inferência                | [@JoaoMPrestes](https://github.com/JoaoMPrestes)       |
 
