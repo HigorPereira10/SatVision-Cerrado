@@ -104,13 +104,13 @@ streamlit run app/streamlit_app.py
 ```
 ## 🛰️ Exemplo de análise
 
-1. Escolha Dataset → Cerrado
+### 🔹 1. Escolha Dataset → Cerrado
 
-2. Selecione uma área (ex: area_002)
+### 🔹 2. Selecione uma área (ex: area_002)
 
-3. Compare 2020 × 2024
+### 🔹 3. Compare 2020 × 2024
 
-4. Veja lado a lado:
+### 🔹 4. Veja lado a lado:
 
 <p align="center">
   <img src="docs/imgs/deteccao_vegetacao_cerrado.jpg" alt="Detecção de vegetação no Cerrado" width="90%"/>
@@ -130,9 +130,19 @@ streamlit run app/streamlit_app.py
 </p>
 
 
-Observe:
+### 🔹 5. Observe:
 
 Percentual de perda/ganho de vegetação
 
 Predição do modelo (vegetação ou desmatamento)
+
+---
+
+
+## 🧑‍💻 Autores
+
+| Nome      | Função                                                   | GitHub                                                   |
+| ---------- | -------------------------------------------------------- | -------------------------------------------------------- |
+| **Higor**  | Desenvolvimento, pré-processamento, integração Streamlit | [@HigorPereira19](https://github.com/HigorPereira10) |
+| **João**   | Treinamento da IA, rotulagem e inferência                | [@UsuarioDoJoao](https://github.com/UsuarioDoJoao)       |
 
