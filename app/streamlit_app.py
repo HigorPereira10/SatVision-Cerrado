@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 
 # CONFIGURAÇÃO GERAL
-st.set_page_config(layout="wide", page_title="EcoVision Cerrado — Dashboard Final")
+st.set_page_config(layout="wide", page_title="SatVision Cerrado — Dashboard Final")
 os.makedirs("outputs", exist_ok=True)
 os.makedirs("outputs/overlays", exist_ok=True)
 os.makedirs("outputs/plots", exist_ok=True)
@@ -88,7 +88,7 @@ def find_area_folders(root):
     ])
 
 # INTERFACE PRINCIPAL
-st.title("EcoVision Cerrado — Detecção de Vegetação")
+st.title("SatVision Cerrado — Detecção de Vegetação")
 
 st.sidebar.header("Fonte da Imagem")
 mode = st.sidebar.radio("Escolha:", ("Upload", "Imagem Processada"))
@@ -267,4 +267,4 @@ if dataset_choice == "Cerrado":
                 cv2.imwrite(out_path, cv2.cvtColor(heat, cv2.COLOR_RGB2BGR))
                 st.success(f"Heatmap salvo em: {out_path}")
 
-st.caption("© EcoVision Cerrado — APS 2025/2 — Universidade Paulista (UNIP)")
+st.caption("© SatVision Cerrado — APS 2025/2 — Universidade Paulista (UNIP)")
