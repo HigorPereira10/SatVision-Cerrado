@@ -1,6 +1,6 @@
-# 🌱 Guia de Execução — EcoVision Cerrado
+# 🌱 Guia de Execução — SatVision Cerrado
 
-Este documento descreve o passo a passo para configurar, treinar e executar o projeto **EcoVision Cerrado**, garantindo reprodutibilidade completa do ambiente e dos resultados.
+Este documento descreve o passo a passo para configurar, treinar e executar o projeto **SatVision Cerrado**, garantindo reprodutibilidade completa do ambiente e dos resultados.
 
 ---
 
@@ -19,8 +19,8 @@ Antes de começar, instale:
 ## 🧩 2️⃣ Clonar o Repositório e Preparar o Ambiente
 
 ```bash
-git clone https://github.com/HigorPereira10/ecovision-cerrado.git
-cd ecovision-cerrado
+git clone https://github.com/HigorPereira10/SatVision-cerrado.git
+cd SatVision-cerrado
 
 # Criar e ativar ambiente virtual
 python -m venv .venv
