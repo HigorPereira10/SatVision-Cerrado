@@ -1,6 +1,6 @@
-# 🌎 EcoVision Cerrado
+# 🌎 SatVision Cerrado
 
-**EcoVision Cerrado** é um projeto de **Visão Computacional** e **Inteligência Artificial** desenvolvido para detectar **vegetação e desmatamento** a partir de imagens de satélite Sentinel-2.  
+**SatVision Cerrado** é um projeto de **Visão Computacional** e **Inteligência Artificial** desenvolvido para detectar **vegetação e desmatamento** a partir de imagens de satélite Sentinel-2.  
 
 > Embora o nome destaque o bioma *Cerrado*, o modelo de IA utilizado é **genérico** — treinado com o dataset **EuroSAT**, composto por imagens de diferentes regiões do mundo.  
 > O **Cerrado** foi utilizado como **caso de estudo e aplicação prática**, servindo para avaliar o comportamento do modelo e dos métodos de análise multitemporal em um bioma real.
@@ -31,7 +31,7 @@ O projeto demonstra como **modelos genéricos de classificação de uso do solo*
 ## 🧩 Estrutura do Projeto
 
 ```bash
-ecovision-cerrado/
+SatVision-cerrado/
 ├── app/
 │   ├── rotulador.py                # Interface para rotular imagens manualmente
 │   └── streamlit_app.py            # Dashboard principal (análise + IA)
@@ -98,7 +98,7 @@ ecovision-cerrado/
 
 ### 🔧 Execução
 ```bash
-cd ecovision-cerrado
+cd SatVision-cerrado
 .\.venv\Scripts\activate
 streamlit run app/streamlit_app.py
 ```
