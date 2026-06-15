@@ -11,8 +11,8 @@ DATA_DIR = st.sidebar.radio("Fonte", [
 ])
 OUTPUT_CSV = os.path.join(BASE_DIR, "../outputs/labels.csv")
 
-st.set_page_config(page_title="EcoVision Cerrado — Rotulador", layout="wide")
-st.title("🌱 Rotulador de Imagens — EcoVision Cerrado")
+st.set_page_config(page_title="SatVision Cerrado — Rotulador", layout="wide")
+st.title("🌱 Rotulador de Imagens — SatVision Cerrado")
 
 # Carregar imagens
 areas = sorted([d for d in os.listdir(DATA_DIR) if os.path.isdir(os.path.join(DATA_DIR, d))])
